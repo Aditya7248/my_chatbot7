@@ -1,0 +1,165 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "hey", "Hey", "Hi", "Good morning", "Good afternoon", "Good evening"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! What can I help you with?", "Good day! How may I assist you?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye", "See you later", "Bye"],
+            "responses": ["Goodbye! Have a great day!", "See you later! Feel free to reach out if you have more questions.", "Bye! Don't hesitate to contact me if you need more information."],
+            "context": [""]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name?", "Who are you?"],
+            "responses": ["My name is Aditya Tiwari."],
+            "context": [""]
+        },
+        {
+            "tag": "contact",
+            "patterns": ["How can I contact you?", "What is your contact information?"],
+            "responses": ["You can contact me via email at tiwariaditya2707@gmail.com."],
+            "context": [""]
+        },
+        {
+            "tag": "linkedin",
+            "patterns": ["What is your LinkedIn profile?", "Can I have your LinkedIn link?", "LinkedIn?"],
+            "responses": ["Sure! You can find my LinkedIn profile at [LinkedIn](https://www.linkedin.com/in/aditya-tiwari-24b4b924a)."],
+            "context": [""]
+        },
+        {
+            "tag": "resume",
+            "patterns": [
+                "Can I have your resume?", 
+                "Where can I download your resume?", 
+                "Do you have a CV?", 
+                "Can I see your CV?", 
+                "Resume?"
+            ],
+            "responses": [
+                "Sure! You can download my resume from this link: <a href='https://drive.google.com/file/d/1UTxrsoHcUHAhNyB8oY_ue_p24YN2hrPY/view?usp=sharing'>Resume</a>."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "education",
+            "patterns": ["What is your educational background?", "Tell me about your education.", "Where did you study?"],
+            "responses": [
+                "BTech in Computer Science and Engineering from Charotar University of Science and Technology (CHARUSAT), Anand, India in May 2025 with a CGPA of 9.45. Consistently ranked in the top 10 throughout the academic years 2022 and 2023.",
+                "Higher Secondary Course (HSC) from Amity School, Bharuch, India in April 2021 with distinction, specializing in Physics, Chemistry, and Maths with Computer Science."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "work_experience",
+            "patterns": ["Tell me about your work experience.", "What is your professional background?", "Where have you worked?"],
+            "responses": [
+                "NLP Intern at Mentorness, Ahmedabad, India (Feb 2024 - Mar 2024). Developed a customer complaint analysis model using NLP and machine learning, achieving 86.89% accuracy on test data.",
+                "AI and Machine Learning Product Developer at Open Source, Wilmington, USA (Dec 2023 - Feb 2024). Developed a machine learning model to assist clients in mergers and acquisitions within the US market.",
+                "Artificial Intelligence Intern at CodeClause, Pune, India (Mar 2023 - Apr 2023). Developed a real-time mask detection system using OpenCV.",
+                "Web Developer at Classic Web Soft Technology, Ahmedabad, India (May 2023 - Jun 2023). Developed and deployed websites using WordPress and Elementor."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "skills",
+            "patterns": ["What skills do you have?", "Tell me about your skills.", "What are your technical skills?"],
+            "responses": [
+                "Proficient in Python (Pandas, PyTorch, NumPy, Scikit-learn), C/C++, and SQL.",
+                "Experienced with frameworks and libraries such as TensorFlow, Keras, Scikit-learn, Pandas, NumPy, Matplotlib, and PyTorch.",
+                "Skilled in data visualization tools like Power BI and Tableau.",
+                "Proficient in development tools such as Git, Jupyter Notebooks, and Google Colab.",
+                "Web development skills in HTML, CSS, JavaScript, and React."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "projects",
+            "patterns": ["Tell me about your projects.", "What projects have you worked on?", "Can you describe your projects?"],
+            "responses": [
+                "Stock Market Predictor Web App using Streamlit, Keras, and yfinance to forecast stock prices based on historical data. Available on my GitHub: https://github.com/Aditya7248/Stock_Market_Predictor.",
+                "Indian News Headlines Analysis and Classification using machine learning techniques to analyze and classify Indian English news articles. Achieved approximately 83% accuracy on the test set using an SVM model. Available on my GitHub: https://github.com/Aditya7248/Indian-News-Headlines-Analysis-and-Classification.",
+                "Air Canvas using OpenCV and MediaPipe to enable hands-free digital sketching. Involved real-time hand tracking and fingertip detection. Available on my GitHub: https://github.com/Aditya7248/Air-Canvas."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "achievements",
+            "patterns": ["What are your achievements?", "Tell me about your accomplishments.", "What have you achieved?"],
+            "responses": [
+                "Co-authored a paper on 'Traffic Sign Recognition using Convolutional Neural Networks with Transfer Learning for Advanced Driving Assistance Systems (ADAS)' presented at the Sixth International Conference on Advance Informatics for Computing Research (ICAICR-2023).",
+                "Part of the Intel Hawks team that secured 2nd place in the Quiz contest at the Google Cloud GenAI Hackathon 2024 across the Asia South Pacific Region."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "interests",
+            "patterns": ["What are your interests?", "Tell me about your hobbies.", "What do you enjoy doing?"],
+            "responses": [
+                "Playing volleyball and have represented Gujarat twice at the national level.",
+                "Exploring new technologies and concepts.",
+                "Listening to music.",
+                "Traveling to explore new places."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "personal_profile",
+            "patterns": [
+                "Tell me about yourself.",
+                "Describe aditya",
+                "Tell me about aditya.",
+                "Tell me about Aditya.",
+                "Tell me about yourself", 
+                "Describe yourself.", 
+                "Can you tell me about yourself?", 
+                "Give me an overview of your profile.", 
+                "Can you provide a summary of your qualifications?", 
+                "What is your personal profile?"
+            ],
+            "responses": [
+                "My name is Aditya Tiwari. I am a Machine Learning Engineer and Data Analyst with experience in performing independent research utilizing an appealing web architecture. I have expertise in Neural Networks and discovering methods to enhance user experience through the intelligent application of data. I execute thorough research on innovative problem-solving techniques, develop prototypes to evaluate the approach’s sustainability, and implement the application in production, leading to insightful findings that enhance awareness among consumers.<br><br><b>Contact Information:</b><br>- Email: tiwariaditya2707@gmail.com<br>- LinkedIn: <a href='https://www.linkedin.com/in/aditya-tiwari-24b4b924a'>Aditya Tiwari</a><br><br><b>Education:</b><br>- BTech in Computer Science and Engineering from Charotar University of Science and Technology (CHARUSAT), Anand, India (May 2025), CGPA: 9.45<br>- Higher Secondary Course (HSC) from Amity School, Bharuch, India (April 2021), with distinction<br><br><b>Work Experience:</b><br>- NLP Intern at Mentorness, Ahmedabad, India (Feb 2024 - Mar 2024)<br>- AI and Machine Learning Product Developer at Open Source, Wilmington, USA (Dec 2023 - Feb 2024)<br>- Artificial Intelligence Intern at CodeClause, Pune, India (Mar 2023 - Apr 2023)<br>- Web Developer at Classic Web Soft Technology, Ahmedabad, India (May 2023 - Jun 2023)<br><br><b>Skills:</b><br>- Technical: Python (Pandas, PyTorch, NumPy, Scikit-learn), C/C++, SQL, TensorFlow, Keras, Scikit-learn, Pandas, NumPy, Matplotlib, PyTorch, Power BI, Tableau, Git, Jupyter Notebooks, Google Colab, HTML, CSS, JavaScript, React<br>- Soft: Teamwork, Time Management, Communication, Presentation skills, Problem-solving, Adaptability, Attention to Detail, Collaboration, Professionalism<br><br><b>Projects:</b><br>- Stock Market Predictor Web App (GitHub: <a href='https://github.com/Aditya7248/Stock_Market_Predictor'>Stock Market Predictor</a>)<br>- Indian News Headlines Analysis and Classification (GitHub: <a href='https://github.com/Aditya7248/Indian-News-Headlines-Analysis-and-Classification'>News Headlines Analysis</a>)<br>- Air Canvas (GitHub: <a href='https://github.com/Aditya7248/Air-Canvas'>Air Canvas</a>)<br><br><b>Achievements:</b><br>- Co-authored a paper on 'Traffic Sign Recognition using Convolutional Neural Networks with Transfer Learning for Advanced Driving Assistance Systems (ADAS)' presented at ICAICR-2023<br>- Secured 2nd place in the Quiz contest at the Google Cloud GenAI Hackathon 2024<br><br><b>Interests:</b><br>- Playing volleyball (represented Gujarat at the national level)<br>- Exploring new technologies and concepts<br>- Listening to music<br>- Traveling to explore new places<br><br><b>Resume:</b><br>You can download my resume from this link: <a href='https://drive.google.com/file/d/1UTxrsoHcUHAhNyB8oY_ue_p24YN2hrPY/view?usp=sharing'>Resume</a>."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "soft_skills",
+            "patterns": ["What are your soft skills?", "Tell me about your soft skills.", "What soft skills do you have?"],
+            "responses": [
+                "My soft skills include teamwork, time management, communication, presentation skills, problem-solving, adaptability, attention to detail, collaboration with experts, professionalism, and engaging presentation skills."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "technical_skills",
+            "patterns": ["What are your technical skills?", "Tell me about your technical skills.", "What technical skills do you have?"],
+            "responses": [
+                "My technical skills include programming in Python (Pandas, PyTorch, NumPy, Scikit-learn), C/C++, and SQL. I am proficient with frameworks and libraries such as TensorFlow, Keras, Scikit-learn, Pandas, NumPy, Matplotlib, and PyTorch. I also have experience with data visualization tools like Power BI and Tableau, and development tools such as Git, Jupyter Notebooks, Google Colab, IDEs (PyCharm, VS Code), and web development technologies like HTML, CSS, JavaScript, and React."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks", "Thank you very much", "Thanks a lot"],
+            "responses": ["You're welcome! If you have any more questions, feel free to ask.", "Happy to help! Let me know if there's anything else you need.", "You're welcome! Don't hesitate to reach out if you need more information."],
+            "context": [""]
+        },
+        {
+            "tag": "acknowledgement",
+            "patterns": ["Okay", "Alright", "Got it", "Sure", "Fine", "Sounds good"],
+            "responses": ["Great! Let me know if there's anything else I can assist you with.", "Alright! Feel free to ask if you have any more questions.", "Got it! I'm here if you need anything else."],
+            "context": [""]
+        },
+        {
+            "tag": "help",
+            "patterns": ["How can you help me?", "What can you help me with?", "How do you assist?", "What can you do?", "How can you assist me?"],
+            "responses": [
+                "I can provide information about Aditya's education, work experience, skills, projects, achievements, and interests. Just ask me any specific question or type one of these keywords: education, work experience, skills, projects, achievements, or interests."
+            ],
+            "context": [""]
+        }
+    ]
+}
