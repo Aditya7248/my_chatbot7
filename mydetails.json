@@ -15,7 +15,7 @@
         {
             "tag": "name",
             "patterns": ["What is your name?", "Who are you?"],
-            "responses": ["My name is Aditya's Agent."],
+            "responses": ["I'm Aditya's Agent."],
             "context": [""]
         },
         {
