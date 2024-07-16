@@ -1,7 +1,7 @@
-import streamlit as st # type: ignore
+import streamlit as st  # type: ignore
 import json
 import random
-from fuzzywuzzy import process # type: ignore
+from fuzzywuzzy import process  # type: ignore
 
 # Load intents file
 def load_intents():
@@ -82,6 +82,8 @@ def main():
     # Message input section at the bottom
     st.markdown("<div class='input-container'>", unsafe_allow_html=True)
     st.text_input("Enter your message:", key="input", on_change=handle_user_input)
+    if st.button("Send"):
+        handle_user_input()
     st.markdown("</div>", unsafe_allow_html=True)
 
 if __name__ == "__main__":
