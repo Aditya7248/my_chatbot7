@@ -1,4 +1,4 @@
-# Unleash the Power of Conversation: Your Intelligent Chatbot Assistant
+# Power of Conversation: Your Intelligent Chatbot Assistant
 
 ![Chatbot Banner](https://d41chssnpqdne.cloudfront.net/user_upload_by_module/chat_bot/files/8370340/bbQNQLkJKsdLmhun.jpeg?Expires=1722331091&Signature=RKe8wV3EaDf3hZIPELJyk3k1i90bkF2G34iisqbJVZkKmOQtUs~0NttScMHgLnAfBN1wIutg71K8YarawYeiavGmnJkM5Mcls5SpCWNGZaRP5BGsrzs8OtKqHmQ4Wm-zlHKJj1zddN5kQ~FUXvMeFp5XpBARGhs9X70ctSR-35ReXnZZ17IpGeDK3cBatQCm9kK8KqDEFY88CrXYO-qmttmX7p6dtt6ZCcXkxzyiZCmpw-Xuc1QWVA~imAi2AQBYvmcnhuB3GAaPB3iP71ZmfONxhhTbXgwt-FkVYCUpq-5SgqSekuitZRx2pOJV~ggAGr-mubqfwEbZwsJ~sAFXrw__&Key-Pair-Id=K3USGZIKWMDCSX)
 
