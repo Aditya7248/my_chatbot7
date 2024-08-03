@@ -57,11 +57,11 @@
             "tag": "work_experience",
             "patterns": ["Tell me about your work experience.", "What is your professional background?", "Where have you worked?"],
             "responses": [
-                "AI/ML Product Developer at Swaroop.ai, Ahmedabad, India (May 2024 - July 2024). Worked on various real-time applications, including deep fake detection, face swapping models, voice cloning, and other deep fake technologies. Contributed to the development and implementation of talking picture models, conducted extensive research and hands-on work with various models within the deep fake community, and gained practical insights into real-world applications of AI/ML technologies.",
-                "NLP Intern at Mentorness, Ahmedabad, India (Feb 2024 - Mar 2024). Developed a customer complaint analysis model using NLP and machine learning, achieving 86.89% accuracy on test data.",
-                "AI and Machine Learning Product Developer at Open Source, Wilmington, USA (Dec 2023 - Feb 2024). Developed a machine learning model to assist clients in mergers and acquisitions within the US market.",
-                "Artificial Intelligence Intern at CodeClause, Pune, India (Mar 2023 - Apr 2023). Developed a real-time mask detection system using OpenCV.",
-                "Web Developer at Classic Web Soft Technology, Ahmedabad, India (May 2023 - Jun 2023). Developed and deployed websites using WordPress and Elementor."
+                "<b>AI/ML Product Developer at Swaroop.ai</b>, Ahmedabad, India (May 2024 - July 2024). Worked on various real-time applications, including deep fake detection, face swapping models, voice cloning, and other deep fake technologies. Contributed to the development and implementation of talking picture models, conducted extensive research and hands-on work with various models within the deep fake community, and gained practical insights into real-world applications of AI/ML technologies.",
+                "<b>NLP Intern at Mentorness</b>, Ahmedabad, India (Feb 2024 - Mar 2024). Developed a customer complaint analysis model using NLP and machine learning, achieving 86.89% accuracy on test data.",
+                "<b>AI and Machine Learning Product Developer</b>,<b>Open Source</b>, Wilmington, USA (Dec 2023 - Feb 2024). Developed a machine learning model to assist clients in mergers and acquisitions within the US market.",
+                "<b>Artificial Intelligence Intern at CodeClause</b>, Pune, India (Mar 2023 - Apr 2023). Developed a real-time mask detection system using OpenCV.",
+                "<b>Web Developer at Classic Web Soft Technology</b>, Ahmedabad, India (May 2023 - Jun 2023). Developed and deployed websites using WordPress and Elementor."
             ],
             "context": [""]
         },
